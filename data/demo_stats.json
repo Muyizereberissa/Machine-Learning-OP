@@ -1,0 +1,32 @@
+{
+  "train_counts": {
+    "Parasitized": 1600,
+    "Uninfected": 1600,
+    "total": 3200
+  },
+  "test_counts": {
+    "Parasitized": 400,
+    "Uninfected": 400,
+    "total": 800
+  },
+  "image_stats": {
+    "sample_size": 200,
+    "mean_brightness": 0.47357510834932326,
+    "mean_red": 0.5333994841575622,
+    "mean_green": 0.42923963397741316,
+    "by_class": {
+      "Parasitized": {
+        "mean_brightness": 0.4607066088914871,
+        "mean_red": 0.5316545650362968,
+        "mean_green": 0.40814684092998504,
+        "n": 100
+      },
+      "Uninfected": {
+        "mean_brightness": 0.48644360780715945,
+        "mean_red": 0.5351444032788276,
+        "mean_green": 0.45033242702484133,
+        "n": 100
+      }
+    }
+  }
+}
