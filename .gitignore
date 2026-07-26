@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Large raw data (use scripts/download_data.py)
+data/raw/
+data/cell_images/
+!data/demo_stats.json
+data/train/**
+!data/train/.gitkeep
+!data/train/Parasitized/
+!data/train/Parasitized/.gitkeep
+!data/train/Uninfected/
+!data/train/Uninfected/.gitkeep
+data/test/**
+!data/test/.gitkeep
+!data/test/Parasitized/
+!data/test/Parasitized/.gitkeep
+!data/test/Uninfected/
+!data/test/Uninfected/.gitkeep
+data/uploads/**
+!data/uploads/.gitkeep
+
+*.zip
+logs/
+tmp/
+locust_report*
+htmlcov/
+.coverage
+
+# Runtime DB (created at deploy)
+app_data.db
+*.sqlite3
+
+# Keep trained Keras model + threshold for deploy
+!models/
+!models/*.keras
+!models/*.tf
+!models/*.json
+!models/.gitkeep
