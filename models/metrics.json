@@ -1,0 +1,10 @@
+{
+  "metrics": {
+    "accuracy": 0.9025,
+    "precision": 0.882,
+    "recall": 0.93,
+    "f1": 0.9051,
+    "auc": 0.9278,
+    "threshold": 0.9871
+  }
+}
