@@ -89,31 +89,11 @@ docker compose --profile load up locust
 docker compose up -d --scale api=3
 ```
 
----
-
-## Deploy on Render
-
-1. Push this repo to GitHub.  
-2. In [Render](https://dashboard.render.com): **New** → **Blueprint** (`render.yaml`) or **Web Service** with Docker.  
-3. Plan: Free. Health check path: `/health`.  
-4. Free-tier notes:
-   - Service may sleep after idle time (cold start can take 1–2 minutes).  
-   - Disk is ephemeral, so SQLite uploads reset on redeploy/restart.  
-5. After deploy, open the public URL and test Predict + Retrain.
-
----
 
 ## Demo video
 
-**Demo video:** _add your YouTube URL here_
+**Demo video:** 
 
-Suggested walkthrough:
-1. Show uptime status and dataset insights.  
-2. Predict with `samples/parasitized_demo.png` and `samples/uninfected_demo.png`.  
-3. Upload labeled images for both classes, then trigger retraining.  
-4. Optionally show Locust results for 1 vs 3 containers.
-
----
 
 ## API summary
 
