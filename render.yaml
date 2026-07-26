@@ -1,0 +1,17 @@
+# Render Blueprint (free web service)
+# Connect this repo in Render Dashboard → New → Blueprint
+services:
+  - type: web
+    name: malaria-mlops
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: TF_CPP_MIN_LOG_LEVEL
+        value: "2"
+      - key: RETRAIN_EPOCHS
+        value: "2"
+      - key: RETRAIN_MAX_IMAGES
+        value: "80"
+      - key: PYTHONUNBUFFERED
+        value: "1"
