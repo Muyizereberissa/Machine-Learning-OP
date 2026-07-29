@@ -90,10 +90,10 @@ docker compose up -d --scale api=3
 ```
 
 
-## Demo video
+## Demo video && Hosted Link
 
 **Demo video:** [Malaria Cells prediction](https://youtu.be/P3OKJdE55Xo)
-
+**Hosted Link:** [MLOPs Hosted Link](https://machine-learning-op.onrender.com/)
 
 ## API summary
 
