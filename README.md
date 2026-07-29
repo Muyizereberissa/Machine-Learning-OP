@@ -92,7 +92,7 @@ docker compose up -d --scale api=3
 
 ## Demo video
 
-**Demo video:** 
+**Demo video:** [Malaria Cells prediction](https://youtu.be/P3OKJdE55Xo)
 
 
 ## API summary
